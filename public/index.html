@@ -4,14 +4,10 @@
     <script type="text/javascript" src="javascripts/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript">
 
-    $.get("https://alpha.amberainsider.com/test.php",function(data,status){
-    alert("数据: " + data + "\n状态: " + status);
+    $.get("/jweb/user/googleauth",function(data,status){
+    console.log(data);
   });
     </script>
 </head>
-
-<body>
-    <p>If you click on me, I will disappear.</p>
-</body>
 
 </html>
